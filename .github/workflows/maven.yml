@@ -9,6 +9,10 @@
 name: Java CI with Maven
 
 on:
+permissions:
+  contents: write
+  security-events: write
+  
   push:
     branches: [ "main" ]
   pull_request:
